@@ -75,9 +75,9 @@ apt install figlet boxes -y &>/dev/null
 system=$(cat /etc/issue.net)
 date=$(date '+%Y-%m-%d <> %H:%M:%S')
 echo -e "\033[1;37m $system                          $date"
-figlet "SSH-PLUS" | lolcat
-echo "SCRIPTEN DESARROLLO POR EL MANDARIN SNIFF !!"
-echo -e "\033[01;31m━═━═━═━═━═━═━═━━═━═━═━═━═━═━═━═━━═━═━═━═━═━━═━═━═━═━━═━═━═━═━═━═━═━━═━═━═━═━═━\033[0m"
+figlet "SSH-MANDARIN MOD" | lolcat
+echo "SCRIPT EN DESARROLLO POR EL MANDARIN SNIFF !!"
+echo -e "\033[01;31m━═━═━═━═━═━═━═━━═━═━═━═━═━═━═━═DESENCRIPTADORESHC═━━═━═━═━═━━═━═━═━═━═━═━═━━═━═━═━═━═━\033[0m"
 echo ""
 echo ""
 echo -e "                       \033[05;31mSISTEMAS \033[05;33mOPERACIONALES\033[0m"
@@ -91,13 +91,13 @@ echo -e "\033[1;31m \033[1;33m\033[0m"
 echo -e "\033[1;31m• \033[1;33mUSE UBUNTU 18 x64 PARA recomendado\033[0m"
 echo -e "\033[1;31m• \033[1;33mUSE UBUNTU 18 x64 PARA (V2RAY) evite otros sistemas\033[0m"
 echo -e "\033[1;31m \033[1;33m\033[0m"
-echo -e "\033[01;31m━═━═━═━═━═━═━═━━═━═━═━═━═━═━═━═━━═━═━═━═━═━━═━═━═━═━━═━═━═━═━═━═━═━━═━═━═━═━═━\033[0m"
+echo -e "\033[01;31m━═━═━═━═━═━═━═━━═━═━═━═━═━═━═━═DESENCRIPTADORESHC═━═━═━═━━═━═━═━═━═━═━═━━═━═━═━═━═━\033[0m"
 echo -ne "\033[1;31m╰━━━━━━━━❪\033[1;36mDIGITE ENTER PARA CONTINUAR (n) SALIR:\033[1;37m"; read x
 [[ $x = @(n|N) ]] && exit
 echo -e "\033[1;36mSelecione la Arquitetura de su VPS: \033[1;37m"
 echo -e "[1] - x86_64"
 echo -e "[2] - aarch64(ARM)"
-echo -ne "\033[1;36mOpção: \033[1;37m"
+echo -ne "\033[1;36mOpcion: \033[1;37m"
 read resposta
 if [[ "$resposta" = '1' ]]; then
     sed -i 's/Port 22222/Port 22/g' /etc/ssh/sshd_config >/dev/null 2>&1
@@ -126,7 +126,7 @@ clear
 system=$(cat /etc/issue.net)
 date=$(date '+%Y-%m-%d <> %H:%M:%S')
 echo -e "\033[1;37m $system                          $date"
-figlet "SSH-PLUS" | lolcat
+figlet "SSH-MANDARIN MOD" | lolcat
 echo "SCRIPT EN DESARROLLO !!" 
 echo -e "\033[01;31m━═━═━═━═━═━═━═━━═━═━═━═━═━═━═━═━━═━═━═━═━═━━═━═━═━═━━═━═━═━═━═━═━═━━═━═━═━═━═━\033[0m"
 echo -e "\033[1;33mESPERE DETECTAMOS..."
@@ -143,7 +143,7 @@ echo -e "\n\033[1;37m[\033[1;31m1\033[1;37m] \033[1;33mMANTER ACTUAL\033[0m"
 echo -e "\033[1;37m[\033[1;31m2\033[1;37m] \033[1;33mCREAR UNA NUEVA BASE DE DATOS\033[0m"
 echo -e "\033[01;31m━═━═━═━═━═━═━═━━═━═━═━═━═━═━═━═━━═━═━═━═━═━━═━═━═━═━━═━═━═━═━═━═━═━━═━═━═━═━═━\033[0m"
 echo ""
-tput setaf 2 ; tput bold ; read -p "Opção ?: " -e -i 1 optiondb ; tput sgr0
+tput setaf 2 ; tput bold ; read -p "OPCION ?: " -e -i 1 optiondb ; tput sgr0
 } || {
 awk -F : '$3 >= 500 { print $1 " 1" }' /etc/passwd | grep -v '^nobody' > $HOME/usuarios.db
 }
@@ -152,7 +152,7 @@ clear
 system=$(cat /etc/issue.net)
 date=$(date '+%Y-%m-%d <> %H:%M:%S')
 echo -e "\033[1;37m $system                          $date"
-figlet "SSH-PLUS" | lolcat
+figlet "SSH-MANDARIN MOD" | lolcat
 echo -e "\033[01;31m║\033[1;31m\033[5;34;47m                 ACTUALIZACIONES DEMORA UN POCO !               \033[1;33m \033[0m\033[01;31m║"
 echo -e "\033[01;31m║\033[0m"
 fun_attlist () {
@@ -181,7 +181,7 @@ clear
 system=$(cat /etc/issue.net)
 date=$(date '+%Y-%m-%d <> %H:%M:%S')
 echo -e "\033[1;37m $system                          $date"
-figlet "    SSH-PLUS" | lolcat
+figlet " SSH-MANDARIN MOD" | lolcat
 echo -e "\033[01;31m║\033[1;31m\033[5;34;47m                FINALIZANDO INSTALACION NECESÁRIAS               \033[1;33m \033[0m\033[01;31m║"
 echo -e "\033[01;31m║\033[0m"
 fun_bar "$_Ink/list $_lnk $_Ink $_1nk $key"
@@ -201,7 +201,7 @@ cd $HOME
   echo 'echo -e ""' >>/root/.bashrc
 date=$(date '+%Y-%m-%d <> %H:%M:%S')
 echo -e "\033[1;37m $system                          $date"
-figlet "SSH-PLUS" | lolcat
+figlet "SSH-MANDARIN MOD" | lolcat
 echo -e "\033[01;31m║\033[1;31m\033[5;34;47m                INSTALACION FINALIZO               \033[1;33m \033[0m\033[01;31m║"
 echo -e "\033[01;31m║\033[1;33mPARA INICIAR ESCRIBA: \033[1;32mmenu\033[0m"
 echo -e "\033[01;31m║\033[1;33m MAS INFORMACION \033[1;31m(\033[1;36mTELEGRAM\033[1;31m): \033[1;37m@GATESCCN\033[0m"
@@ -233,7 +233,7 @@ clear
 system=$(cat /etc/issue.net)
 date=$(date '+%Y-%m-%d <> %H:%M:%S')
 echo -e "\033[1;37m $system                          $date"
-figlet "SSH-PLUS" | lolcat
+figlet "SSH-MANDARIN MOD" | lolcat
 echo "SCRIPT EN DESAROLLO !!" 
 echo -e "\033[01;31m━═━═━═━═━═━═━═━━═━═━═━═━═━═━═━═━━═━═━═━═━═━━═━═━═━═━━═━═━═━═━═━═━═━━═━═━═━═━═━\033[0m"
 echo -e "\033[1;33mESPERE DETECTAMOS..."
@@ -250,7 +250,7 @@ echo -e "\n\033[1;37m[\033[1;31m1\033[1;37m] \033[1;33mMANTENER ACTUAL\033[0m"
 echo -e "\033[1;37m[\033[1;31m2\033[1;37m] \033[1;33mCREAR UNA NUEVA BASE DE DATOS\033[0m"
 echo -e "\033[01;31m━═━═━═━═━═━═━═━━═━═━═━═━═━═━═━═━━═━═━═━═━═━━═━═━═━═━━═━═━═━═━═━═━═━━═━═━═━═━═━\033[0m"
 echo ""
-tput setaf 2 ; tput bold ; read -p "Opção ?: " -e -i 1 optiondb ; tput sgr0
+tput setaf 2 ; tput bold ; read -p "OPCION ?: " -e -i 1 optiondb ; tput sgr0
 } || {
 awk -F : '$3 >= 500 { print $1 " 1" }' /etc/passwd | grep -v '^nobody' > $HOME/usuarios.db
 }
@@ -272,7 +272,7 @@ clear
 system=$(cat /etc/issue.net)
 date=$(date '+%Y-%m-%d <> %H:%M:%S')
 echo -e "\033[1;37m $system                          $date"
-figlet "    SSH-PLUS" | lolcat
+figlet "  SSH-MANDARIN MOD" | lolcat
 echo -e "\033[01;31m║\033[1;31m\033[5;34;47m                 ACTUALIZACION DE PAQUETES NECESARIOS                \033[1;33m \033[0m\033[01;31m║"
 echo -e "\033[01;31m║\033[0m"
 inst_pct () {
@@ -288,7 +288,7 @@ clear
 system=$(cat /etc/issue.net)
 date=$(date '+%Y-%m-%d <> %H:%M:%S')
 echo -e "\033[1;37m $system                          $date"
-figlet "    SSH-PLUS" | lolcat
+figlet " SSH-MANDARIN MOD" | lolcat
 echo -e "\033[01;31m║\033[1;31m\033[5;34;47m                FINALIZANDO INSTALACION NECESARIA               \033[1;33m \033[0m\033[01;31m║"
 echo -e "\033[01;31m║\033[0m"
 fun_bar "$_Ink/listARM $_lnk $_Ink $_1nk $key"
@@ -308,7 +308,7 @@ cd $HOME
   echo 'echo -e ""' >>/root/.bashrc
 date=$(date '+%Y-%m-%d <> %H:%M:%S')
 echo -e "\033[1;37m $system                          $date"
-figlet "SSH-PLUS" | lolcat
+figlet "SSH-MANDARIN MOD" | lolcat
 echo -e "\033[01;31m║\033[1;31m\033[5;34;47m                INSTALACION FINALIZO               \033[1;33m \033[0m\033[01;31m║"
 echo -e "\033[01;31m║\033[1;33mPARA INICIAR ESCRIBA: \033[1;32mmenu\033[0m"
 echo -e "\033[01;31m║\033[1;33m MAS INFORMACION \033[1;31m(\033[1;36mTELEGRAM\033[1;31m): \033[1;37m@GATESCCN\033[0m"
